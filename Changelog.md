@@ -1,5 +1,26 @@
 VirtualSMC Changelog
 ====================
+#### v1.3.5
+- Added ITE 8638 support, thx @cmd2001
+
+#### v1.3.4
+- Fixed loading on macOS 10.10 and older due to a MacKernelSDK regression
+
+#### v1.3.3
+- Added constants for macOS 15
+- Fixed NCT6799D support
+
+#### v1.3.2
+- Added NCT6799D support by @Lorys89
+- Added preliminary macOS 14 support
+- Added FAN controls for ITE chips by @xCuri0
+
+#### v1.3.1
+- Fixed `smcread -l` output
+
+#### v1.3.0
+- Added preliminary macOS 13 support
+
 #### v1.2.9
 - Fix infinite panic loop when kernel panic happens on macOS 11 and newer
 - Fix rare panics caused by SMCDellSensors (new way of reading SMM was ported from FanIO driver V2.3)
